@@ -582,12 +582,11 @@ h2 {
 }
 
 a:hover {
-}
-
--	float: left;
+  float: left;
 	width: 752px;
 	padding: 0px 0px 0px 0px;
 }
+
 
 .post {
 	overflow: hidden;
