@@ -1,0 +1,765 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<title> Aves </title>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500';
+</style>
+
+<style>
+  @import url(tiny.css) (min-width:300px);
+  @import url(small.css) (min-width:600px);
+  @import url(big.css) (min-width:900px);
+  @media screen and (max-width: 300px) {
+  /* estilos */
+ }
+ @media screen and (max-width: 600px) {
+ /* Estilos */
+ }
+ </style>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="tudo.css" media="screen" />
+</head>
+
+<body id="corpodefundo">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="index.html"></script>
+    <script type="text/javascript">
+
+
+    $(function() {
+  $("body").addClass("js");
+
+  var $hamburger = $(".hamburger"),
+    $nav = $("#site-nav"),
+    $masthead = $("#masthead");
+
+  $hamburger.click(function() {
+    $(this).toggleClass("is-active");
+    $nav.toggleClass("is-active");
+    $masthead.toggleClass("is-active");
+    return false;
+  });
+});
+
+    </script>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+    <defs>
+      <symbol viewBox="0 0 60 60" id="icon-facebook">
+        <path d="M25.8 46.3h6.7V30H37l.6-5.6h-5.1v-2.8c0-1.5.1-2.3 2.2-2.3h2.8v-5.6H33c-5.4 0-7.3 2.7-7.3 7.3v3.4h-3.4V30h3.4v16.3zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30z" />
+      </symbol>
+    </defs>
+  </svg>
+  
+  <div class="hero">
+    <header id="masthead" role="banner">
+      <div class="container">
+          <div id="lowsrc_banner">
+              <div id="banner"> 
+              </div>
+              </div>
+        <button class="hamburger hamburger--boring" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+          <span class="hamburger-label">Menu</span>
+        </button>
+  
+        <nav id="site-nav" role="navigation">
+          <div class="col">
+            <h4>Início</h4>
+            <ul>
+              <li><a href="index.html">Página Principal</a></li>
+              <li><a href="FUP.html">Faça uma pergunta!</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Animais</h4>
+            <ul>
+              <li><a href="aves.html">Aves</a></li>
+              <li><a href="AnimaisAqua.html">Animais Aquáticos</a></li>
+              <li><a href="AnimaisTerrestres.html">Animais Terretres</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Localização</h4>
+            <ul>
+              <li><a href="Mapa.html">Mapa</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Informações sobre o Zoológico</h4>
+            <ul>
+              <li><a href="Zoologico.html">Zoológico</a></li>
+              <li><a href="PF.html">Perguntas Frequentes</a></li>
+              
+            </ul>
+          </div>  
+          <div class="col">
+            <ul class="social">
+              <li><a href="https://www.facebook.com/zoologico.guarulhos/" target="_blank"><svg title="Facebook">
+                <use xlink:href="#icon-facebook"></use> </a>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <br><br><br>
+  <!-- Início da explicação das aves -->
+  <h1 class="ExAves">- Aves -</h1>
+
+  <br><br>
+
+  <h2 class="ExAves2"> Nesta página você poderá ver todos os animais do tipo aério <br> que possuimos em nosso Zoológico. </h2>
+
+
+  <div class="container">
+      <hr class="featurette-divider">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/5601/1065855_9c71896a57fd2006009a31ae02bbc9fa.jpg" height="250px">
+      </div>
+      <div class="txtaves">
+        <p>Mutum do sudeste (Crax blumenbachii)</p>
+        <br>
+        <p class="TamDesc">Espécie endêmica da Mata Atlântica de baixada, passa a maior parte do tempo no solo,<br> onde se alimenta de frutos e sementes, e se empoleira para dormir e nidificar. Atualmente<br>é encontrado apenas em 11 localidades em Minas Gerais, Espírito Santo e Bahia, habitando<br>matas primárias ou em avançada regeneração, sendo muito sensível à caça, alteração<br>e fragmentação de seu habitat. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/7532/2357824_8352d3b3800c7c26b13fc88d3b8afce8.jpg" height="270px">
+      </div>
+      <div class="txtaves">
+        <p>Papagaio de peito roxo (Amazona vinacea)</p>
+        <br>
+        <p class="TamDesc"> Caracterizado pela coloração arroxeada do peito, este papagaio habita as florestas<br>frias, principalmente matas de araucárias, formando grandes bandos. Antes encontrada<br>desde a Bahia até o Rio Grande do Sul, hoje restringe-se ao sudeste e sul do Brasil. A<br>destruição de seu habitat preferencial e a captura pelo tráfico são grandes ameaças á<br>sobrevivência da espécie. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://www.portaldosanimais.com.br/wp-content/uploads/2017/11/Arara-de-Asa-Verde-e1516990550467.png" height="230px">
+      </div>
+      <div class="txtaves">
+        <p>Arara vermelha (Ara chloroptera)</p>
+        <br>
+        <p class="TamDesc">No Brasil ocorre desde a Amazônia até o oeste do Piauí, Bahia, Minas Gerais, Mato<br>Grosso do Sul e São Paulo. Mede até 90 cm e pesa até 1,5 kg. Os ovos medem cerca<br>de 5 cm, com incubação feita apenas pelas fêmeas em um período de 29 dias.<br>Ameaçada devido ao desmatamento e principalmente a captura de filhotes para o<br>comércio ilegal. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://i.pinimg.com/736x/8e/39/e0/8e39e027c3d13dd90a1c51aad8e2f79e.jpg" height="270px">
+      </div>
+      <div class="txtaves">
+        <p>Urubu rei (Sarcoramphus papa)</p>
+        <br>
+        <p class="TamDesc">Vive em florestas densas e áreas abertas adjacentes. Devido à baixa reprodutividade<br>da espécie e a degradação do seu habitat, é uma espécie cada vez mais rara. Possui<br>envergadura que varia de 170 a 198 cm e peso de 3 a 5 kg. Ave diurna de grande<br>importância ecológica, já que se alimenta de carcaças. Sua distribuição se dá em todo<br>Brasil, sendo mais comum no norte, nordeste e centro oeste. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://guiabirdingbrasil.com.br/wp-content/uploads/2019/07/ARARA-CANIND%C3%89-NINHO-4-MENOR.jpg" height="270px">
+      </div>
+      <div class="txtaves">
+        <p>Arara Canindé (Ara ararauna)</p>
+        <br>
+        <p class="TamDesc">Habita florestas úmidas, matas de galeria, buritizais e palmais diversos. Também<br>conhecida como arara amarela, mede cerca de 80 cm. Migra em certas épocas do ano,<br>em busca de alimento. Desloca-se grandes distancias durante o dia, alimentando-se<br>basicamente de sementes, frutas e nozes. Uma das araras mais apreciadas em<br>cativeiro, sendo este o principal motivo de ameaça. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/0043/3400835_ed50c11fe5801c1c18085cd92f0981a6.jpg" height="270px">
+      </div>
+      <div class="txtaves">
+        <p>Mutum de penacho (Crax fasciolata)</p>
+        <br>
+        <p class="TamDesc">Vive aos pares ou pequenos grupos familiares. Ave ocorrente no sul do Amazonas,<br>Maranhão, e do Brasil central até o oeste de São Paulo, Paraná e Minas Gerais. Em<br>risco de extinção principalmente devido à caça e perda de habitat. Mede cerca de 83 cm<br>e pesa em média 2,5 kg. Macho todo preto com a barriga branca e fêmea com barriga<br> cor de canela. Alimenta-se de frutas, folhas e brotos de plantas. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://www.infoescola.com/wp-content/uploads/2017/04/ema-59203312.jpg" height="270px">
+      </div>
+      <div class="txtaves">
+        <p>Ema (Rhea americana)</p>
+        <br>
+        <p class="TamDesc">Maior ave das Américas, podendo chegar até 1,40 m. Ocorre em campos naturais,<br> cerrados e áreas agropecuárias. Machos diferem das fêmeas por possuírem a região<br>anterior do peito e pescoço negra. Alimenta-se de frutos, folhas, sementes, insetos e<br>pequenos animais. Ingere pedras para auxiliar na digestão. Ameaçada de extinção<br>devido principalmente à caça. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/03/30646r_b3335c0e6500ea8017c8451a0f266824.jpg" height="270px">
+      </div>
+      <div class="txtaves">
+        <p>Gavião Carijó (Rupornis magnirostris)</p>
+        <br>
+        <p class="TamDesc">Mede de 31 a 41 centímetros de comprimento. Seu peito é ferruginoso e apresenta largas<br>estrias verticais. Seu ventre e suas pernas são de cor branca, com primoroso barrado ferrugíneo.<br>A base da cauda é branca, mas vai se tornando barrada em direção à extremidade. Existem duas<br>listras negras bem visíveis na extremidade da cauda.</p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/8781/1878880_81949d1102643df682ecc8ff9d844e66.jpg" height="200px">
+      </div>
+      <div class="txtaves">
+        <p>Gavião Carrapateiro (Milvago chimachima)</p> 
+        <br>
+        <p class="TamDesc">Mede entre 36 e 45 centímetros de comprimento. Alimenta-se principalmente dos parasitas<br>de bovinos e equinos tais como carrapatos. Quando não encontra carrapatos, seu prato principal,<br>alimenta-se de lagartas e cupins. O carrapateiro é frequentemente encontrado nas fazendas de<br>gado, com o qual vive associado, retirando carrapatos destes.</p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://www.biofaces.com/img/2455/o/1123/748/post/2017/03/1490699858.jpg" height="260px">
+      </div>
+      <div class="txtaves">
+        <p>Gavião Pernilongo (Geranospiza caerulescens)</p>
+        <br>
+        <p class="TamDesc">Mede entre 43 e 50 centímetros de comprimento com envergadura entre 75 e 111<br>centímetros.Apresenta grande variação de coloração cinza da plumagem de acordo com<br>a subespécie analisada, existindo exemplares com a coloração variando desde cinza<br>escuro até cinza claro. Vasculha cavidades em ocos de árvores e palmeiras ou entre<br>folhas de bromélias, graças à grande mobilidade da articulação intertarsal e de seus<br>dedos curtos e tarso longo. </p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/7231/1327425r_0f56594765b5b650535d801b8738db4e.jpg" height="260px">
+        </div>
+        <div class="txtaves">
+          <p>Urubu Comum (Coragyps atratus)</p>
+          <br>
+          <p class="TamDesc">Alimenta-se de carcaças de animais mortos e outros materiais orgânicos em decomposição,<br>bem como de animais vivos impedidos de fugir, como filhotes de tartarugas e de outras aves.<br>Destaca-se o formato mais curto e arredondado das asas, com a ponta mantida um pouco à frente<br>da cabeça. Possui cerca de 56-76 centímetros de comprimento e cerca de 143 centímetros de<br>envergadura.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+        <div class="divave">
+          <div class="divimgaves">
+            <img class="imgAves" src="https://66.media.tumblr.com/4856af99efad8b3b21bb59f574ec7d44/tumblr_nyp2kxy3e61v0v2j1o1_1280.jpg" height="260px">
+          </div>
+          <div class="txtaves">
+            <p>Suindara (Tyto furcata)</p>
+            <br>
+            <p class="TamDesc">Possui em média 33 a 36 centímetros (macho) e 32,5 a 38 centímetros (fêmea) de<br>comprimento. É uma espécie muito especializada, caça suas presas localizando-as<br>principalmente pela audição. É uma grande caçadora de ratos, sejam silvestres,<br>sejam espécies introduzidas de fora das Américas. Põe de 4 a 7 ovos, que incubará<br>durante uns 32 dias. Dentro de 50 dias os filhotes já estão aptos a voar.</p>
+          </div>
+        <hr class="featurette-divider">
+        </div>
+    
+      </div>
+
+      <div class="container">
+
+          <div class="divave">
+            <div class="divimgaves">
+              <img class="imgAves" src="https://passarinhando.com.br/images/stories/joomgallery/strigiformes_25/coruja-orelhuda_20110213_2015740916.jpg" height="260px">
+            </div>
+            <div class="txtaves">
+              <p>Mocho Orelhudo (Asio clamator)</p>
+              <br>
+              <p class="TamDesc">Coruja de tamanho médio, medindo de 34 a 42 cm (macho) e de 34 a 40 cm (fêmea).<br> Na cabeça, a coroa e a nuca são marrons apresentando listras e manchas. No alto da<br>cabeça, sobre os olhos apresentam penas proeminentes de coloração castanho escura<br>e preta que se assemelham na aparência a orelhas. Alimenta-se de ratos (inclusive dos<br>maiores), morcegos, anfíbios, répteis, insetos grandes e aves.</p>
+            </div>
+          <hr class="featurette-divider">
+          </div>
+      
+        </div>
+
+        <div class="container">
+
+            <div class="divave">
+              <div class="divimgaves">
+                <img class="imgAves" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Schopfkarakara.jpg" height="260px">
+              </div>
+              <div class="txtaves">
+                <p>Carcará (Caracara plancus)</p>
+                <br>
+                <p class="TamDesc">Medindo cerca de 50-60 centímetros da cabeça a cauda, o peso do macho é de 834 g;<br>a fêmea pesa 953 g. O carcará é facilmente reconhecível quando pousado, pelo fato de<br>possuir uma espécie de solidéu preto sobre a cabeça. Onívoro, alimenta-se de quase<br>tudo o que acha, de animais vivos ou mortos até o lixo produzido pelos humanos,<br>tanto nas áreas rurais quanto urbanas.</p>
+              </div>
+            <hr class="featurette-divider">
+            </div>
+        
+          </div>
+
+    <div class="container">
+
+       <div class="divave">
+        <div class="divimgaves">
+         <img class="imgAves" src="https://www.biofaces.com/img/126/i/880/760/post/2018/09/1536588554.jpg" height="275px">
+         </div>
+        <div class="txtaves">
+         <p>Pica-Pau Branco (Melanerpes candidus)</p>
+         <br>
+         <p class="TamDesc">Mede entre 24 a 29 centímetros e pesa entre 98 e 136 gramas. A parte<br>inferior das costas é branca. O uropígio é escuro amarronzado mas com<br>a base branca. As penas retrizes exteriores da cauda mostram manchas<br>brancas. Alimentam-se de insetos e suas larvas, sementes, frutos e mel.<br> Caçam insetos, especialmente sob a casca. Atacam ninhos de marimbondos<br>e vespas. </p>
+    </div>
+  <hr class="featurette-divider">
+  </div>
+          
+ </div>
+ 
+ <div class="container">
+
+    <div class="divave">
+      <div class="divimgaves">
+        <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/0033/3300785r_af7e2deee952d30614389df43321ad9b.jpg" height="330px">
+      </div>
+      <div class="txtaves">
+        <p>Graúna (Molothrus oryzivorus)</p>
+        <br>
+        <p class="TamDesc">Mede entre 21,5 e 25,5 centímetros de comprimento e pesa entre<br>69,7 e 90,3 gramas. Ele é onívoro, come frutos, sementes, insetos,<br>aranhas e outros invertebrados. Aprecia o coco maduro da palmeira<br>buriti. Apanha insetos atropelados nas estradas e aproveita restos<br>de milho junto às habitações humanas ou desenterra sementes<br>recém-plantadas. Faz ninho em árvores ocas, troncos de palmeiras,<br>ninhos de pica-pau, em mourões entre muitos outros.</p>
+      </div>
+    <hr class="featurette-divider">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://2.bp.blogspot.com/-UphYgHEkIlg/TkqEqZhjvsI/AAAAAAAAA_0/z6WLcNfDopQ/s1600/ma+148.JPG" height="300px">
+        </div>
+        <div class="txtaves">
+          <p>Anacã (Deroptyus accipitrinus)</p>
+          <br>
+          <p class="TamDesc">Mede entre 21,5 e 25,5 centímetros de comprimento e pesa entre<br>69,7 e 90,3 gramas. Ele é onívoro, come frutos, sementes, insetos,<br>aranhas e outros invertebrados. Aprecia o coco maduro da palmeira<br>buriti. Apanha insetos atropelados nas estradas e aproveita restos<br>de milho junto às habitações humanas ou desenterra sementes<br>recém-plantadas. Faz ninho em árvores ocas, troncos de palmeiras,<br>ninhos de pica-pau, em mourões entre muitos outros.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s2.glbimg.com/GRHdLCrf8Yc8qnZew5R3JwhF8Bk=/e.glbimg.com/og/ed/f/original/2018/08/08/papagaio-verdadeiro.jpg" height="300px">
+        </div>
+        <div class="txtaves">
+          <p>Papagaio Verdadeiro (Amazona aestiva)</p>
+          <br>
+          <p class="TamDesc">Mede entre 35 e 37 centímetros de comprimento e pesa cerca de 400 gramas.<br>Se distingue pela cabeça amarela, com azul-esverdeado na fronte e bochecha.<br>Alimenta-se de sementes e frutos. Habita florestas úmidas, savanas, floresta de<br>galeria, áreas cultivadas com árvores e matas com palmeiras, até 1.600 metros.<br>Comum em casais ou bandos.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+  
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/7013/3107647g_d75e0bf8500c358c1c2efa6dc0fbf84e.jpg" height="300px">
+        </div>
+        <div class="txtaves">
+          <p>Maitaca de Cabeça Azul (Pionus mestruus)</p>
+          <br>
+          <p class="TamDesc">A maitaca-de-cabeça-azul tem aproximadamente 27 cm de comprimento<br>e pesa 245 g. É principalmente verde, com a cabeça azul, incluso o pescoço<br>e peito. A face inferior da cauda é vermelha, amarelo nos abrigos da asa<br>e penas vermelhas e rosas ao redor do bico. Alimenta-se de frutos, sementes,<br>néctar, vagens, pétalas de flores e brotos. Como várias espécies de<br>psitacídeos, consome regularmente um suplemento mineral obtido em<br>barreiros ou barrancos.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://www.wikiaves.com.br/wa-media/3439351r_56d4eb3b8d6722a41fc01b49e970475c.jpg" height="250px">
+        </div>
+        <div class="txtaves">
+          <p>Marianinha de Cabeça Amarela (Pionites leucogaster)</p>
+          <br>
+          <p class="TamDesc">Mede cerca de 23 centímetros de comprimento. Apresenta belo capuz laranja,<br>lados da face e pescoço amarelos. Reproduz-se em janeiro e faz ninho em buracos<br>de árvores, entre 15 e 30 m. de altura. Põe 2 ovos branco-amarelados. Alimenta-se<br>de frutos, pétalas e néctar de flores.Comum na copa de florestas de galeria,<br>florestas úmidas de terra firme, capoeiras e várzeas. Vive geralmente aos<br>pares e pequenos bandos.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://upload.wikimedia.org/wikipedia/commons/3/32/PERIQUITO-RICO_%28_Brotogeris_tirica%29_%282087239475%29.jpg" height="300px">
+        </div>
+        <div class="txtaves">
+          <p>Periquito Verde (Brotogeris tirica)</p>
+          <br>
+          <p class="TamDesc">Mede 21 cm. A coloração básica da plumagem é verde. Alimentam-se<br>de frutas, coquinhos de todos os tipos e também do fruto da paineira,<br>que perfuram e roubam as sementes nos meses de junho a agosto.<br>Também não desprezam as flores adocicadas do suinã, flores, néctar,<br>jerivá. Vive em casais, ao que se sabe permanecem unidos por toda a vida.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://www.wikiaves.com.br/wa-media/1044420r_e3668efa9e088ae2619bd60514de2433.jpg" height="260px">
+        </div>
+        <div class="txtaves">
+          <p>Perquito de Encontro Amarelo (Brotogeris chiriri)</p>
+          <br>
+          <p class="TamDesc">Os indivíduos adultos medem de 22,0 a 23,5 centímetros de comprimento,<br>a cauda 10 centímetros e as asas cerca de 12,5 centímetros. Alimenta-se<br>de frutos, sementes, flôres e néctar. Em certas épocas do ano podem<br>frequentar comedouros com sementes como milho por exemplo (Observação<br>Pessoal: João de Almeida Prado). Aprecia muito os frutos da Palmeira Jerivá.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://www.mascotarios.org/wp-content/uploads/2016/02/Guacamayo-Noble-1.jpg" height="260px">
+        </div>
+        <div class="txtaves">
+          <p>Maracanã Nobre (Diopsittaca nobilis)</p>
+          <br>
+          <p class="TamDesc">Mede cerca de 30-35 centímetros de comprimento e o peso varia de<br>129 a 169 g. Em voo vê-se a base da asa vermelha, borda da asa amarela<br>e rabo oliva-dourado. Alimenta-se de coquinhos de palmeiras silvestres<br>e frutos, principalmente o caroço, que tritura com seu possante bico.<br>Nidifica em cavidades de árvores e palmeiras e em cupinzeiros, entre<br>fevereiro e junho. O casal fica sempre junto.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/7472/2747811_5c1dd624439ae3f98b9a7938e350d59e.jpg" height="260px">
+        </div>
+        <div class="txtaves">
+          <p>Maracanã do Buriti (Primolius maracana)</p>
+          <br>
+          <p class="TamDesc">Mede cerca de 44 cm de comprimento. Cor verde que contrasta com a face amarela<br>pálida nua e áspera, cabeça quase toda azul, bico pequeno e negro, extremo das asas<br>azuis. Alimenta-se nos buritizais dos cocos dessa palmeira em bandos de até 100 indivíduos.<br>Nidifica entre fevereiro e junho, em buracos de árvores feitos por Pica-paus ou<br>em palmeiras mortas, frequentemente sobre a água. Geralmente ele coloca 2 ovos.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/3472/2743657g_86a0758a0aecf7be5a985b25a05fee57.jpg" height="450px">
+        </div>
+        <div class="txtaves">
+          <p>Tiriba de Testa Vermelha (Pyrrhura frontalis)</p>
+          <br>
+          <p class="TamDesc">Mede entre 24 e 28 centímetros de comprimento e pesa entre 72 e 94 gramas.<br>É verde, inclusive nas bochechas, com a zona auricular pardacenta. Alimentação:<br>Prefere frutas pequenas, mas também come frutos grandes, sementes e castanhas.<br>Costuma equilibrar-se nos galhos, ficando de cabeça para baixo enquanto come.<br>Nidifica em cavidades em troncos de árvores onde são postos de 3 a 5 ovos.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/3681/1863352g_a0fc1899c4ee6ef510fa9654a38dd461.jpg" height="310px">
+        </div>
+        <div class="txtaves">
+          <p>Jandaia Mineira (Aratinga auricapillus)</p>
+          <br>
+          <p class="TamDesc">Mede cerca de 30 centímetros de comprimento <br>e pesa 130 gramas. Verde escura, somente com a <br>parte anterior da cabeça e abdômen de coloração <br>vermelho alaranjado lavados, sem o brilho encontrado <br>na testa da ave. A testa, os lores e região orbital são de <br>coloração vermelho alaranjado intenso, a coroa é amarela brilhante.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/782/287783_827f937e8fef7c4a3acc9bbccace3172.jpg" height="320px">
+        </div>
+        <div class="txtaves">
+          <p>Jandaia Coquinho</p>
+          <br>
+          <p class="TamDesc">Mede cerca de 25-29 centímetros de comprimento<br> e pesa cerca de 86 gramas. Cabeça verde com<br> uma faixa dianteira cor de pêssego, face azulada,<br> ventre verde-amarelado. Tem a região ao redor dos <br>olhos laranja nos adultos e cinzenta nos juvenis. Presente <br>especialmente no cerrado, Em alguns lugares é considerado <br>praga nas plantações. Vive em casal, que permanece <br>unido por toda a vida.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/622/226556g_bd69786ed5b9a5ed431813abc6bbfb4e.jpg" height="320px">
+        </div>
+        <div class="txtaves">
+          <p>Mutum Cavalo (Pauxi tuberosa)</p>
+          <br>
+          <p class="TamDesc"> O Mutum Cavalo mede de 83 a 89 cm de comprimento,<br> pesa até 3,85kg.  No solo, procura por frutos e pequenos<br> vertebrados e invertebrados. Pode acompanhar bandos de <br>macacos (Cebus e Saimiri) que se deslocam pela galharia; <br>para pegar os frutos derrubados pelos primatas.<br> Constrói seu ninho em árvores entre 2 e 3 metros de altura, <br>chocando de 2 a 3 ovos.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/141/141068g_7887aad8dc79a7e8f24f9f2167224ae1.jpg" height="320px">
+        </div>
+        <div class="txtaves">
+          <p>Urumutum (Nothocrax urumutum)</p>
+          <br>
+          <p class="TamDesc">Mede cerca de 58 centímetros de comprimento e<br> pesa cerca de 1,25 quilogramas. Ave de porte avantajado com asas e <br>cauda também grandes, bico forte, robusto e com a <br>maxila de ponta curva. Faz um grande ninho de gravetos,<br> a cerca de 4 metros de altura. Põe 2 ovos brancos.<br> A incubação dura 30 dias e é atividade exclusiva da fêmea.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://www.zoolourosa.com/wp-content/uploads/2019/10/1-Turaco-de-face-branca-Tauraco-leucotis-1024x661.jpg" height="320px">
+        </div>
+        <div class="txtaves">
+          <p>Turaco de Face Branca (Tauraco leucotis)</p>
+          <br>
+          <p class="TamDesc">Espécie sedentária e territorial. <br>Ambos os elementos do casal defendem o território. <br>Alimenta-se sobretudo de frutos e bagas. E vive <br>sobretudo na copa das árvores, raramente descendo <br>ao solo. Ambos os elementos do casal incubam os ovos e <br>cuidam das crias nos primeiros tempos de vida.<br> Os juvenis começam a voar perto dos 26 dias de idade.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/9702/2079985g_d6d990a3c455138404c4e61d723216fb.jpg" height="320px">
+        </div>
+        <div class="txtaves">
+          <p>Jacuguaçu (Penelope obscura)</p>
+          <br>
+          <p class="TamDesc">O jacuaçu é uma ave galliforme da família Cracidae. <br>Também conhecido como jacu-velho (Rio Grande do Sul),<br> jacuguaçu, jacu e jacupixuna. O desmatamento e a caça <br>indiscriminada reduziram drasticamente a população dessa espécie.<br> embora alimente-se também de folhas, brotos, grãos e insetos.<br> Dentre as frutas de árvores nativas, essa espécie de ave <br>é muito atraída por frutos de araçá. Defeca as sementes intactas.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+       
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/0812/2180356g_2fbc954aade6bc07b0a9cc81471ab8b6.jpg" height="320px">
+        </div>
+        <div class="txtaves">
+          <p>Tucano de Bico Verde (Ramphastos dicolorus)</p>
+          <br>
+          <p class="TamDesc">Tem cerca de 42 a 48 centímetros, boa parte correspondem ao bico.<br> Pesa em torno de 265 g a 400 g. Apresenta papo amarelo e bico verde.<br> Vive em áreas florestadas, desde o litoral até as zonas montanhosas, <br>incluindo as florestas de planalto. Habita a copa de florestas altas, <br>principalmente em áreas montanhosas da Mata Atlântica, <br>em seu interior e nas bordas. </p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+   
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/5881/1885954g_b60e4f66b43f1b5bff53f28406307a7d.jpg" height="340px">
+        </div>
+        <div class="txtaves">
+          <p>Tucano de Peito Branco <br>(Ramphastos tucanus)</p>
+          <br>
+          <p class="TamDesc">Mede entre 53 e 58 centímetros de comprimento e<br> pesa entre 515 e 700 gramas. Alimenta-se de frutos,<br> insetos e pequenos vertebrados, como lagartos e cobras,<br> além de ovos e filhotes de outras aves. Faz ninho em buracos <br>de árvores, à alturas variáveis.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/119/911675g_f3ed4b3e665d911178644f4681833801.jpg" height="350px">
+        </div>
+        <div class="txtaves">
+          <p>Tucano Toco (Ramphastos toco)</p>
+          <br>
+          <p class="TamDesc">Com a característica marcante de possuir enorme <br>bico alaranjado com uma mancha negra na ponta. <br>Sua plumagem é negra, destacando-se o papo e o uropígio brancos,<br> além do crisso manchado de vermelho. Sua dieta consiste basicamente <br>de frutas, insetos e artrópodes, mas também costuma <br>saquear ninhos de outras aves e devorar ovos e filhotes.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/7142/2417838g_f3f4406f1f4e54665cc93c718a9e216c.jpg" height="340px">
+        </div>
+        <div class="txtaves">
+          <p>Jandaia Maracanã (Psittacara leucophthalmus)</p>
+          <br>
+          <p class="TamDesc">Possui a cabeça com forma “oval”. Coloração geral <br>verde com os lados da cabeça e pescoço com algumas <br>penas vermelhas, apenas as coberteiras inferiores pequenas<br> da asa são vermelhas, sendo as grandes inferiores amarelas, <br>chamando muito a atenção em voo, região perioftálmica nua e branca,<br> íris laranja, bico cor de chifre clara, pés acinzentados.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/4292/2924386g_bf804f33ad29c048831b4a06eb09238f.jpg" height="340px">
+        </div>
+        <div class="txtaves">
+          <p>Gralha Picaça (Cyanocorax chrysops)</p>
+          <br>
+          <p class="TamDesc">Alimenta-se de insetos, frutos e as vezes ovos de outras aves.<br> É muito perseguida por granjeiros por roubar os ovos de dentro<br> dos galinheiros. Pode frequentar comedouros com sementes ou quirera <br>de milho. Vive em bandos de 10 a 20 indivíduos fora da época reprodutiva, <br>quando desfaz-se o bando e formam-se casais. O ninho é feito em<br> árvores altas e espinhentas, composto por fortes varas porém<br> ralos, podendo os ovos cair através delas. </p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://s3.amazonaws.com/media.wikiaves.com.br/images/9522/2259839g_020506b8372529783e62f2961dd55d25.jpg" height="360px">
+        </div>
+        <div class="txtaves">
+          <p>Gralha do Campo (Cyanocorax cristatellus)</p>
+          <br>
+          <p class="TamDesc">Alcança até 35 centímetros de comprimento e pesa 178 gramas. <br>Asas longas e cauda curta. Tem um característico topete frontal <br>alongado. Plumagem azul-escura; parte interior do pescoço <br>e garganta preta; barriga e ponta da cauda brancas. <br>O ninho é feito com gravetos apoiados em galhos<br> mais grossos. A postura costuma ser de três a <br>quatro ovos azul-claros salpicados de manchas pardas.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <div class="container">
+
+      <div class="divave">
+        <div class="divimgaves">
+          <img class="imgAves" src="https://test.cdn.download.ams.birds.cornell.edu/api/v1/asset/88527851/1800" height="360px">
+        </div>
+        <div class="txtaves">
+          <p>Seriema (Cariama cristata)</p>
+          <br>
+          <p class="TamDesc">Sua plumagem é cinza-amarelada, com finas riscas escuras: <br>abdômen um pouco mais claro, bico e pernas vermelhos. Tem a crista <br>formada por um tufo de penas longas, com cerca de 12 centímetros.<br> Seu canto é marcante, podendo ser ouvido a mais de 1 quilômetro. <br>Parecem longas risadas, as quais vão acelerando-se e <br>aumentando de tom à medida que a ave repete o canto.</p>
+        </div>
+      <hr class="featurette-divider">
+      </div>
+  
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container1">
+      
+      <div class="rodape1">
+        <div class="rodapeTexto">
+         
+
+          <p> <div align="center"> Site Desenvolvido por <a href="https://www.facebook.com/GustavoSomensari" target="_blank" >Gustavo Somensari</a> e <a href="https://instagram.com/murilolgomes?igshid=1cohz0zg7z2u8" target="_blank" > Murilo Gomes</a> </p> </div>
+          <div align="center"> <a href="https://www.guarulhos.sp.gov.br/" target="_blank"> <img class="prefeitura" src="https://1.bp.blogspot.com/-kbPIKNF77ww/XrYhEVUFC0I/AAAAAAAAALI/h9XbljZNREgW0WazvLLFnaNjGlYNVVYLQCNcBGAsYHQ/s320/prefeitura.png" width="165" border="1050px"></a> </div> 
+
+          </div>
+      </div>
+  
+    </footer>
+  </main>
+
+  </body>
+</html>

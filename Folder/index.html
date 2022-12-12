@@ -1,0 +1,248 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<title> Zoológico de Guarulhos </title>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500';
+</style>
+
+<link rel="stylesheet" type="text/css" href="tudo.css" media="screen" />
+</head>
+<body id="corpodefundo">
+  
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="index.html"></script>
+    <script type="text/javascript">
+
+
+
+    $(function() {
+  $("body").addClass("js");
+
+  var $hamburger = $(".hamburger"),
+    $nav = $("#site-nav"),
+    $masthead = $("#masthead");
+
+  $hamburger.click(function() {
+    $(this).toggleClass("is-active");
+    $nav.toggleClass("is-active");
+    $masthead.toggleClass("is-active");
+    return false;
+  });
+});
+
+    </script>
+
+<div class="hero">
+
+  <header id="masthead" role="banner">
+
+    <div class="container">
+      <div id="lowsrc_banner">
+        <div id="banner">
+        </div>
+        </div> 
+        
+      <button class="hamburger hamburger--boring" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+          <span class="hamburger-label">Menu</span>
+        </button>
+        <nav id="site-nav" role="navigation">
+          <div class="col">
+            <h4>Início</h4>
+            <ul>
+              <li><a href="index.html">Página Principal</a></li>
+              <li><a href="FUP.html">Faça uma pergunta!</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Animais</h4>
+            <ul>
+              <li><a href="aves.html">Aves</a></li>
+              <li><a href="AnimaisAqua.html">Animais Aquáticos</a></li>
+              <li><a href="AnimaisTerrestres.html">Animais Terretres</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Localização</h4>
+            <ul>
+              <li><a href="Mapa.html">Mapa</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Informações sobre o Zoológico</h4>
+            <ul>
+              <li><a href="Zoologico.html">Zoológico</a></li>
+              <li><a href="PF.html">Perguntas Frequentes</a></li>
+              
+            </ul>
+          </div>  
+          <div class="col">
+            <ul class="social">
+              <li><a href="https://www.facebook.com/zoologico.guarulhos/" target="_blank"><svg title="Facebook">
+                    <use xlink:href="#icon-facebook"></use> </a>
+                  </svg></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  
+
+  
+  <main role="main">
+  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images4.alphacoders.com/598/thumb-1920-598768.jpg">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <!--Texto-->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2015/08/09/13/30/alcedo-atthis-881594_960_720.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <!--Texto-->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2016/06/05/22/45/otter-1438381_960_720.jpg">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <!-- texto -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  
+  
+    <div class="container marketing">
+  
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+      
+          <h2 class="maisinfo"> <b>O Zoológico</b> </h2>
+          <p>Conheça a história sobre o Zoológico, desde a sua fundação até os dias de hoje</p> 
+          <br>
+          <p><a class="btn btn-secondary" href="Zoologico.html" role="button">Saiba Mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+         
+          <h2 class="maisinfo"> <b>Animais</b> </h2>
+          <p>Saiba mais sobre os animais do zoológico de Guarulhos e suas caracteristicas.</p>
+          <br>
+          <p><a class="btn btn-secondary" href="animais.html" role="button">Saiba Mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2 class="maisinfo"> <b>Horários e Como chegar</b> </h2>
+          <p>Veja os horarios de funcionamento e o endereço do Zoológico</p>
+          <br>
+          <p><a class="btn btn-secondary" href="Mapa.html" role="button">Saiba Mais &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+     <br><br>
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Conheça mais de <span class="txtescuro"><b>100 espécies de aves</b></span> no Zoológico de Guarulhos</h2>
+          <br>
+          <p class="lead"> O Zoológico mantém uma rica vegetação com árvores exóticas e nativas que proporciona uma linda paisagem e ainda contribui com a alimentação das nossas aves. <br>  Possui uma área de mata e lagos que atraem muitas espécies de aves de vida livre, que podem ser observadas e fotografadas facilmente.</p>
+          <img src="https://1.bp.blogspot.com/-yN3CxHVj4S0/Xsa_INNJHrI/AAAAAAAAAMA/RNXKTW458PgXObNZS6mJVreTMDcUnndWACNcBGAsYHQ/s320/IMG-6866.PNG" hspace="400px" vspace="-450px" width="800px">
+        </div>
+
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Conheça a <span class="txtescuro"><b>Tiana!<br></b> </span>a Onça Pintada do Zoo</h2>
+          <p class="lead">A Tiana esta no Zoológico de Guarulhos desde que ela tinha 6 meses de vida, hoje ela é uma onça pintada grande e forte, com 15 anos de idade.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="imgAves" src="https://oncafari.org/wp-content/uploads/2019/09/Esperan%C3%A7a_Edu_fragoso-1024x768.jpg" hspace="-550px" width="490px"> 
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Agende<span class="txtescuro"> <b>agora</b> </span> a sua visita ao nosso Zoológico.</h2>
+          <br>
+          <p class="lead"> O Zoológico fica aberto de terça a domingo<br>das 09:00hrs às 17:00hrs <br><br> Entre em contato conosco!<br> Telefone: (11) 2455-4999 </p>
+        
+        </div>
+        <img class="testimagem" sr="https://omunicipioblumenau.com.br/wp-content/uploads/2019/04/183936-2-whatsapp-image-2019-04-15-at-18.22.31-1068x801.jpeg" hspace="590px" vspace="-850px" width="550px">
+        <div class="col-md-5">
+         
+        </div>
+      </div>
+  
+    <br><br><br><br><br>
+
+  
+      <!-- /END THE FEATURETTES -->
+  
+    </div><!-- /.container -->
+  
+  
+    <!-- FOOTER -->
+    <footer class="container1">
+      
+      <div class="rodape1">
+        <div class="rodapeTexto">
+         
+
+          <p> <div align="center"> Site Desenvolvido por <a href="https://www.facebook.com/GustavoSomensari" target="_blank" >Gustavo Somensari</a> e <a href="https://instagram.com/murilolgomes?igshid=1cohz0zg7z2u8" target="_blank" > Murilo Gomes</a> </p> </div>
+          <div align="center"> <a href="https://www.guarulhos.sp.gov.br/" target="_blank"> <img class="prefeitura" src="https://1.bp.blogspot.com/-kbPIKNF77ww/XrYhEVUFC0I/AAAAAAAAALI/h9XbljZNREgW0WazvLLFnaNjGlYNVVYLQCNcBGAsYHQ/s320/prefeitura.png" width="165" border="1050px"></a> </div> 
+
+          </div>
+      </div>
+  
+    </footer>
+  </main>
+
+
+  </body>
+</html>
